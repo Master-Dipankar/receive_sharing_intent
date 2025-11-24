@@ -1,6 +1,8 @@
 # receive_sharing_intent
 [![pub package](https://img.shields.io/pub/v/receive_sharing_intent.svg)](https://pub.dev/packages/receive_sharing_intent)
 
+> **Note**: This is a fork of the original plugin with JVM-target compatibility fixes. See [FORK_NOTES.md](FORK_NOTES.md) for details on why this fork exists and how to use it.
+
 A Flutter plugin that enables flutter apps to receive sharing photos, videos, text, urls or any other file types from another app.
 
 Also, supports iOS Share extension and launching the host app automatically.
@@ -19,7 +21,19 @@ Check the provided [example](./example/lib/main.dart) for more info.
 
 # Usage
 
-To use this plugin, add `receive_sharing_intent` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/). For example:
+## Using This Fork
+
+To use this fork with JVM-target compatibility fixes, add this to your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  receive_sharing_intent:
+    git:
+      url: https://github.com/Master-Dipankar/receive_sharing_intent.git
+      ref: v1.8.1-fixed  # Pin to this tag for stability
+```
+
+Or use the original plugin from pub.dev:
 
 ```yaml
 dependencies:

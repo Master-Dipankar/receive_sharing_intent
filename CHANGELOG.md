@@ -1,3 +1,10 @@
+## 1.8.1-fixed (Fork Release)
+
+* **FORK**: Fixed JVM-target compatibility issue (Commit: 2cea396)
+* Ensures consistent build configuration across Kotlin modules
+* Compatible with modern Kotlin and Java versions
+* See [FORK_NOTES.md](FORK_NOTES.md) for more details
+
 ## 1.8.1
 
 * Fixed sharing not working on iOS 18
