@@ -62,7 +62,7 @@ dependencies:
 
 ## Fork Changelog
 
-### v1.8.1-fixed (2024)
+### v1.8.1-fixed (2025-11-24)
 - Fixed JVM-target compatibility issue
 - Ensures consistent build configuration across Kotlin modules
 - Based on upstream commit 2cea396
@@ -76,8 +76,10 @@ If you find issues specific to this fork or want to contribute improvements:
 
 ## Upstream Synchronization
 
-Last synchronized with upstream: Check git log for latest merge commits
-Next scheduled review: Monitor upstream releases regularly
+- **Upstream Repository**: [KasemJaffer/receive_sharing_intent](https://github.com/KasemJaffer/receive_sharing_intent)
+- **Fork Created**: 2025-11-24
+- **Based on Commit**: 2cea396 (JVM-target compatibility fix)
+- **Recommended**: Monitor upstream releases regularly and evaluate compatibility before merging
 
 ## License
 

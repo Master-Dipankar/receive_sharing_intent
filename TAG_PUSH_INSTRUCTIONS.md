@@ -45,7 +45,7 @@ Look for `refs/tags/v1.8.1-fixed` in the output.
 
 For better visibility, you can also create a GitHub Release:
 
-1. Go to https://github.com/Master-Dipankar/receive_sharing_intent/releases/new
+1. Navigate to your repository on GitHub and go to the Releases page (`/releases/new` path)
 2. Choose the tag: `v1.8.1-fixed`
 3. Title: "v1.8.1-fixed - JVM-target Compatibility Fix"
 4. Description: Use content from FORK_NOTES.md
